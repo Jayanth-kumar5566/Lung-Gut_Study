@@ -10,7 +10,7 @@ This document illustrates the use of the codes to implement the methods describe
 ## Supplementary Methods
 The DNA were quantified by Qubit (Invitrogen), and quality checked by Nanodrop (Invitrogen). The forward and reverse primers used for 16S targeted amplicon sequencing are TCGTCGGCAGCGTCAGATGTGTATAAGAGACAGCCTACGGGNGGCWGCAG and GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAGGACTACHVGGGTATCTAATCC, respectively. For mycobiome analysis the forward and reverse primers used for ITS targeted amplicon sequencing were ATGCCTGTTTGAGCGTC and CCTACCTGATTTGAGGTC, respectively. For shotgun metagenome, quality control, removal of human reads and estimation of taxonomic composition were performed as described in [https://www.nature.com/articles/s41591-021-01289-7](https://www.nature.com/articles/s41591-021-01289-7). Taxonomic call from the Kaiju classifier were further scrutinised by BLAST confirmatory analysis of raw sequence data performed by considering only species whose relative abundance is >1% in at-least 1 sample. A sub-sample of reads (assigned by kaiju) were randomly subjected to BLASTN analysis (using the megablast function and a specificed E-value of 10) against the corresponding database sequences for that species. Sequence similarity of ≥ 50% was as considered as a significant hit and were used for further analysis, while taxa failing to reach this cut off were excluded from analysis.
 
-|                                                                           |  Cluster 1 (N=31)  |  Cluster 2 (N=26)  |  p-value   |
+|                                            |                              |  Cluster 1 (N=31)  |  Cluster 2 (N=26)  |  p-value   |
 |:------------------------------------------:|:----------------------------:|:------------------:|:------------------:|:----------:|
 |                Sex (female)                |                              |     25 (80.6%)     |     20 (76.9%)     |   0.731    |
 |          Age, median (IQR) years           |                              | 65.0 (55.0, 75.0)  | 62.5 (54.2, 69.8)  |   0.202    |
@@ -43,6 +43,7 @@ The DNA were quantified by Qubit (Invitrogen), and quality checked by Nanodrop (
 |      Chronic Infection S. maltophilia      |                              |      0 (0.0%)      |      2 (8.3%)      |   0.107    |
 |          Other chronic infection           |                              |      9 (3.8%)      |      1 (4.2%)      |   0.259    |
 |       Chronic Infection A. fumigatus       |                              |      3 (1.3%)      |      1 (4.2%)      |   0.259    |
+
 
 **Table 1:** Clinical characteristics of patients according to the study clusters. Definition of abbreviations: BSI= Bronchiectasis severity index; MRSA= Methicillin-Resistant Staphylococcus Aureus; MSSA= Methicillin- sensitive Staphylococcus Aureus. Data are presented as median (interquartile range) or n (%).
 
