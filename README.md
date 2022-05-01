@@ -5,8 +5,8 @@ This document illustrates the use of the codes to implement the methods describe
 ## Table of contents
 1. [Pre requisites](#pre-requisities)
 2. [Co-occurence analysis](#co-occurence-analysis)
-    a. [GBLM based network inference](#gblm-based-network-inference)
-    b. [Correlation based network inference](#correlation-based-network-inference)
+    - [GBLM based network inference](#gblm-based-network-inference)
+    - [Correlation based network inference](#correlation-based-network-inference)
 
 ---
 ## Pre requisites
