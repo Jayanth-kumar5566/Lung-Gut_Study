@@ -1,4 +1,4 @@
-# Microbial Dysregulation of the 'Lung-Gut' Axis in High-Risk Bronchiectasis
+# Microbial Dysregulation of the 'Lung-Gut' Axis in Bronchiectasis
 ---
 This document illustrates the use of the codes to implement the methods described in the article "Microbial Dysregulation of the 'Lung-Gut' Axis in High-Risk Bronchiectasis". This document also contains additional/supplementary information and methods used in this manuscript. 
 
