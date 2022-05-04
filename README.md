@@ -19,6 +19,7 @@ This tutorial assumes you are on a linux based system. If you are an windows use
 	- [boot](https://cran.r-project.org/)
 	- [foreach](https://cran.r-project.org/)
 	- [doParallel](https://cran.r-project.org/)
+	- [gMCP](https://cran.r-project.org/web/packages/gMCP/index.html)
 
 ---
 ## Co-occurence analysis
@@ -58,7 +59,7 @@ for i in {1..100}
 do GBLM_parallel1.R input.csv output_$i.csv
 done
 ```
-Following which combine these adjacency matrices together using 
+Following which combine these adjacency matrices together using the script `combine_100x.py`
 
 ## Correlation based network inference
 We implement an ensemble correlation based network inference using Spearman and Pearsons correlation. The script to implement this method is available at `./Correlation_network_inference/correlation_network.R`
