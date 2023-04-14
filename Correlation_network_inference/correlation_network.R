@@ -2,7 +2,7 @@
 f<-read.csv("No.csv",row.names = 1) #Input files is given here
 
 #======co-occurrence=======
-data<-f/rowSums(f #Normalisation)
+data<-f/rowSums(f) #Normalisation
 
 
 #Bootstrap
